@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API Covid-19</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <section class="main">
+        <h1>Situação da COVID-19</h1>
+      </section>
+
+      <div id="searchForm" class="form">
+        <label for="date">Data</label
+        ><input id="iDate" type="date" name="date" />
+        <label for="country">País</label
+        ><select id="iCountry" type="text" name="country">
+          <option selected disabled value="">Selecione um País</option>
+        </select>
+
+        <!-- <button class="btnBlue" id="iBtn" type="button">Buscar</button>-->
+        <button class="btnGreen" id="iAddBtn" type="button">Adicionar</button>
+        <button class="btnRed" id="iClrbtn" type="button">Limpar</button>
+      </div>
+    </header>
+    <main>
+      <section class="chartContainer" id="iGraph" name="graph"></section>
+    </main>
+
+    <footer><p>&copy; 2023 - Alexandre Fonseca</p></footer>
+  </body>
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/toastify-js"
+  ></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="./js/script.js" type="module"></script>
+</html>
