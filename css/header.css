@@ -11,21 +11,6 @@ header {
   flex-wrap: 1 0;
   justify-content: center;
 }
-.imagem__grafico {
-  max-width: 1000px;
-  height: auto;
-}
-.main {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: 1 0;
-  justify-content: center;
-}
-.imagem__virus {
-  grid-template-rows: repeat(6, 1fr);
-  grid-template-columns: repeat(6, 1fr);
-  width: 150px;
-}
 
 h1 {
   display: flex;
