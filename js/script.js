@@ -6,7 +6,6 @@ const iAddbtn = document.getElementById("iAddBtn");
 const iClrbtn = document.getElementById("iClrbtn");
 const icountry = document.getElementById("iCountry");
 const idate = document.getElementById("iDate");
-const ichart = document.getElementById("iChart");
 const iGraph = document.getElementById("iGraph");
 
 function showAlert() {
